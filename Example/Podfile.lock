@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - RY-WRNavigationBar (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - RY-WRNavigationBar (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  RY-WRNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  RY-WRNavigationBar: c7e7e2eef2895ecf9f2fa7f1290374d6bfce712e
+
+PODFILE CHECKSUM: 275957156073843f8bd9d0c8de1cb2d176120298
+
+COCOAPODS: 1.9.3

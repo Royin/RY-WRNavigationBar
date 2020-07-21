@@ -7,8 +7,10 @@
 //
 
 #import "WRViewController.h"
+#import <WRNavigationBar.h>
 
 @interface WRViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *msgLabel;
 
 @end
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.msgLabel.text = [WRNavigationBar isIphoneX] ? @"我是刘海屏": @"我不是刘海屏";
 }
 
 - (void)didReceiveMemoryWarning

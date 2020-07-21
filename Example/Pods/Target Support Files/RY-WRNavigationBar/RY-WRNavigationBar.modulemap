@@ -1,0 +1,6 @@
+framework module RY_WRNavigationBar {
+  umbrella header "RY-WRNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
