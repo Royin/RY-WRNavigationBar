@@ -9,7 +9,7 @@
 对WRNavigationBar的一些问题进行了修改
 - 修复导航栏返回可能出现崩溃的问题
 - 修复iOS14导航栏高度及顶部距离问题（原来导航栏高度写死64或88，iOS14总高度为92）
-- 修改是否为iPhoneX的判断（是否为刘海屏）
+- 修改是否为iPhoneX的判断逻辑（是否为刘海屏）
 - 修改自定义导航栏的title、button自适应宽度
 
 ## Example
@@ -31,7 +31,7 @@ pod 'RY-WRNavigationBar'
 
 ## Author
 
-roin
+Roin
 
 ## License
 
