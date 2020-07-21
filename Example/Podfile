@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RY-WRNavigationBar_Example' do
+  pod 'RY-WRNavigationBar', :path => '../'
+
+  target 'RY-WRNavigationBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
